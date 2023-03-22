@@ -8,9 +8,9 @@ jobs:
       runs-on: ubuntu-latest
       name: "Build V2ray images"
       env:
-        DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
-        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-        DOCKERHUB_REPOSITORY: ${{ secrets.DOCKER_USERNAME }}/${{ secrets.DOCKER_REPO }}:latest
+        DOCKER_USERNAME: ${{ secrets.sharedevelopment }}
+        DOCKER_PASSWORD: ${{ secrets.Wd123321@ }}
+        DOCKERHUB_REPOSITORY: ${{ secrets.sharedevelopment }}/${{ secrets.DOCKER_REPO }}:latest
 
       steps:
       - name: Set up QEMU
